@@ -14,7 +14,7 @@ print('indexing : ' , a[5])
 
 #slicing [start:end:step]
 print('slice : ' , a[12:24:1])
-print('slice : ' , a[::3])
+print('slice : ' , a[::4])
 
 #strip() 
 b = '    python      '
@@ -30,6 +30,7 @@ print('upper : ' , a.upper())
 print('lower : ' , a.lower())
 
 #split
+
 print('split : ' , a.split(' ' , 3))
 print('reverse split : ' , a.rsplit(' ' , 3))
 
@@ -49,7 +50,7 @@ print('startswith : ' , a.startswith('p'))
 print('endswith : ' , a.endswith('n' , 0 , 6))
 
 #index(substring , start , end)    // if not found gives error and stop code
-print('indexs : ' , a.index('t' , 2 , 10))
+print('indexs : ' , a.index('t' , 1 , 10))
 
 #find(substring , start , end)    // if not found giver -1
 print('find : '  , a.find('y' , 3 , 5)) 
@@ -112,7 +113,7 @@ print('\n\n\n\n\n\n' , 'lists'.center(50 , '#') , '\n\n\n')
 thelist = ['php' , 'python' , 'js' , 'c++' , 'c' , 'go']
 
 print('list slicing : ' , thelist[1:6:2])
-thelist[1:3] = []
+thelist[1:4] = []
 print('edited list : ' , thelist)
 
 #append
